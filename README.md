@@ -50,9 +50,8 @@ method to access the current bankroll.
 I commented out remove card since I built a reset method and use set() to 
 swap cards in the game method.
 
-===============================================================================
-Game.java -- Class file that contains basic functionality of the game, 
-a overloaded constructor that takes a testHand, and evaluates the hand
+
+Game.java -- Class file that contains basic functionality of the game, an overloaded constructor that takes a testHand, and evaluates the hand
 ===============================================================================
 
 The game class accounts for the functionality of the poker game. Firstly, I 
