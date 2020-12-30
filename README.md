@@ -1,9 +1,9 @@
 # VideoPoker
 A simple, interactive video poker game.
 
-===============================================================================
+
 Card.java -- Class file that provides all properties of a card
-===============================================================================
+==============================================================
 
 The card class provides the properties for a Card object. I instantiated a card
 object to take parameters rank and suit. A compareTo method is provided, using
@@ -15,9 +15,9 @@ me to sort the hand later on in the game method. ToString transforms the card
 object into readable strings. I also included accessor methods getRank and 
 getSuit to easily access those properties about the card. 
 
-===============================================================================
+
 Deck.java -- Class file for card deck, shuffling and dealing cards
-===============================================================================
+==================================================================
 
 I used the deck class to initiate a 52 card deck and included a for loop
 that adds each rank-value combination to the array by creating a new card
@@ -33,9 +33,9 @@ shuffled to ensure that the same cards aren't dealt twice. The deal method deals
 the deck's top card and can be called however many times a card should be dealt
 (in the Game class it's called 5 times and then added to the hand).
 
-===============================================================================
+
 Player.java -- Class file that creates hand, manages bets & updates bankroll
-===============================================================================
+============================================================================
 
 In the player class, I created an arrayList that represents the player's hand
 so that cards can be added to it. This class has a simply method that adds
